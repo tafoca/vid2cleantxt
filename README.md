@@ -113,7 +113,7 @@ Don't want to use it locally or don't have a GPU? you may be interested in the [
 -   Install the repo with pip:
 
 ```bash
-pip install git+https://github.com/pszemraj/vid2cleantxt.git
+pip install git+https://github.com/tafoca/vid2cleantxt.git
 ```
 
 The library is now installed and ready to use in your Python scripts.
@@ -134,7 +134,7 @@ See below for more details on the `transcribe_dir` function.
 
 #### Install from source
 
-1.  `git clone https://github.com/pszemraj/vid2cleantxt.git`
+1.  `git clone https://github.com/tafoca/vid2cleantxt.git`
     -   use the `--depth=1` switch to clone only the latest master (_faster_)
 2.  `cd vid2cleantxt/`
 3.  `pip install -e .`
@@ -142,7 +142,7 @@ See below for more details on the `transcribe_dir` function.
 As a shell block:
 
 ```bash
-git clone https://github.com/pszemraj/vid2cleantxt.git --depth=1
+git clone https://github.com/tafoca/vid2cleantxt.git --depth=1
 cd vid2cleantxt/
 pip install -e .
 ```
